@@ -51,7 +51,7 @@ class Search extends Component {
                     <input 
                         type="text" 
                         name="name" 
-                        placeholder="Search your profile" 
+                        placeholder="Search your profile by username only" 
                         value={this.state.name} 
                         onChange={this.changeHandler} 
                     /> 
